@@ -95,5 +95,12 @@
 			<artifactId>mockito-all</artifactId>
 			<version>${version.mockito}</version>
 		</dependency>
+		<!-- embedded tomcat -->
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-core</artifactId>
+			<version>${version.tomcat}</version>
+			<scope>${scope.tomcat}</scope>
+		</dependency>
 	</dependencies>
 </project>
