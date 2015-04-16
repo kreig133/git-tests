@@ -88,5 +88,11 @@
 			<artifactId>joda-time</artifactId>
 			<version>${version.joda-time}</version>
 		</dependency>
+		<!-- Mockito -->
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+			<version>${version.mockito}</version>
+		</dependency>
 	</dependencies>
 </project>
