@@ -82,6 +82,11 @@
 
 
 	<dependencies>
-
+		<!-- joda-time -->
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>${version.joda-time}</version>
+		</dependency>
 	</dependencies>
 </project>
