@@ -119,5 +119,19 @@
         			<artifactId>jstl</artifactId>
         			<version>${version.jstl}</version>
         		</dependency>
+
+				<!-- mysql -->
+				<dependency>
+					<groupId>mysql</groupId>
+					<artifactId>mysql-connector-java</artifactId>
+					<version>${version.mysql-connector}</version>
+				</dependency>
+
+				<!-- java Mail -->
+				<dependency>
+					<groupId>javax.mail</groupId>
+					<artifactId>mail</artifactId>
+					<version>${version.javax.mail}</version>
+				</dependency>
 	</dependencies>
 </project>
