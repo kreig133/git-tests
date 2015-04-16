@@ -89,5 +89,12 @@
     			<version>${version.junit}</version>
     			<scope>${scope.junit}</scope>
     		</dependency>
+
+            <!-- Guava -->
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${version.guava}</version>
+            </dependency>
 	</dependencies>
 </project>
