@@ -108,5 +108,16 @@
 			<artifactId>joda-time</artifactId>
 			<version>${version.joda-time}</version>
 		</dependency>
+				<!-- servlet -->
+        		<dependency>
+        			<groupId>javax.servlet</groupId>
+        			<artifactId>javax.servlet-api</artifactId>
+        			<version>${version.javax.servlet-api}</version>
+        		</dependency>
+        		<dependency>
+        			<groupId>javax.servlet</groupId>
+        			<artifactId>jstl</artifactId>
+        			<version>${version.jstl}</version>
+        		</dependency>
 	</dependencies>
 </project>
