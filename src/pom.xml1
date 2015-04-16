@@ -94,5 +94,36 @@
 			<artifactId>mockito-all</artifactId>
 			<version>${version.mockito}</version>
 		</dependency>
+			<!-- Junit 4 -->
+    		<dependency>
+    			<groupId>junit</groupId>
+    			<artifactId>junit</artifactId>
+    			<version>${version.junit}</version>
+    			<scope>${scope.junit}</scope>
+    		</dependency>
+
+            <!-- Guava -->
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${version.guava}</version>
+            </dependency>
+		<!-- joda-time -->
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>${version.joda-time}</version>
+		</dependency>
+				<!-- servlet -->
+        		<dependency>
+        			<groupId>javax.servlet</groupId>
+        			<artifactId>javax.servlet-api</artifactId>
+        			<version>${version.javax.servlet-api}</version>
+        		</dependency>
+        		<dependency>
+        			<groupId>javax.servlet</groupId>
+        			<artifactId>jstl</artifactId>
+        			<version>${version.jstl}</version>
+        		</dependency>
 	</dependencies>
 </project>
