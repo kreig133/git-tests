@@ -82,6 +82,12 @@
 
 
 	<dependencies>
-
+			<!-- Junit 4 -->
+    		<dependency>
+    			<groupId>junit</groupId>
+    			<artifactId>junit</artifactId>
+    			<version>${version.junit}</version>
+    			<scope>${scope.junit}</scope>
+    		</dependency>
 	</dependencies>
 </project>
