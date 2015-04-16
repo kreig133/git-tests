@@ -140,5 +140,11 @@
 					<artifactId>mail</artifactId>
 					<version>${version.javax.mail}</version>
 				</dependency>
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-logging-juli</artifactId>
+			<version>${version.tomcat}</version>
+			<scope>${scope.tomcat}</scope>
+		</dependency>
 	</dependencies>
 </project>
